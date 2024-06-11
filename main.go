@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Git repo Jenkins test"}
+		res := &response{Message: "Git repo Jenkins test2"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
